@@ -1,0 +1,14 @@
+while True:
+  assign_grade = int(input("Say ur grade. "))
+  if assign_grade >89 and assign_grade <= 100:
+      print("Grade:A")
+  elif assign_grade >79 and assign_grade <= 89:
+      print("Grade:B")
+  elif assign_grade >69 and assign_grade <= 79:
+      print("Grade:C")
+  elif assign_grade >59 and assign_grade <= 69:
+      print("Grade:D")
+  elif assign_grade >49 and assign_grade <= 59:
+      print("Grade:F")
+  else:
+      print("Invalid score! Please enter a value between 0 ad 100.")
